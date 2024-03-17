@@ -1,0 +1,42 @@
+.main{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 80px 100px 70px 40px;
+    opacity: 1;
+    animation-name: rotate1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.main2{
+    background-color: rgb(8, 0, 255);
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 180px 140px 70px 100px;
+    opacity: 1;
+    animation-name: rotate2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+h1{
+    position: absolute;
+    top: 45px;
+    left: 43px;
+}
+
+@keyframes rotate1 {
+    0%{transform: rotate(1060deg);}
+    50%{transform: rotate(180deg);}
+}
+@keyframes rotate2 {
+    0%{transform: rotate(-1060deg);}
+
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
